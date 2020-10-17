@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-import gunicorn
 import subprocess
 
 app = Flask(__name__)
